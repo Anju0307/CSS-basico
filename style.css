@@ -1,0 +1,43 @@
+/* Selectores */
+
+/* Universal */
+
+*{
+    font-size: 2rem;
+}
+
+/* De tipo */
+
+h2{
+    color: aqua;
+}
+
+/* Clase */
+
+.titulo3{
+    color: red;
+}
+
+/* ID */
+
+#titulo4{
+    color: green;
+}
+
+/* Atributo */
+
+[Juan="Pablo"]{
+    color: orange;
+}
+
+/* Descendiente */
+
+.comentario p {
+    color: yellow;
+}
+
+/* Pseudo clases */
+
+h6:hover{
+    color: purple;
+}
