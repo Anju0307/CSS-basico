@@ -1,34 +1,22 @@
-/* Unidades de medidas */
+/* Propiedades de texto y tipografias externas */
 
-/* Medidas fijas */
-/* px(pixeles),cm(centimetros), mm(milimetros), pt(puntos)*/
-/* 1em = 16px */
-
-*{
-    padding: 0px;
-    margin: 0px;
-}
-
-.div-h1{
-    font-size: 20px;
-}
-
-/* Medidas relativas (significa que se adapta)*/
-
-.div{
-    font-size: 30px;
-}
-
-/* El tamaño cambia porque lo hereda del contenedor en los em */
-
-.div-h2{
+h1{
+    /* Tamaño fuente */
     font-size: 2em;
+
+    /* Estilo de la fuente */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    /* Ancho de la letra */
+    line-height: 2;
+
+    /* Grosor de la letra */
+    font-weight: normal;
+
+    /* Inutiles */
+    font-stretch: normal;
+    font-variant: small-caps;
 }
-
-/* Porcentaje de uso de la pantalla */
-
-.div2{
-    width: 50vw;
-    height: 20vh;
-    background-color: black;
+h2{
+    font-family: 'Rubik Maze', cursive;
 }
