@@ -1,43 +1,39 @@
-/* Selectores */
+/*/ Especificidad */
 
-/* Universal */
+/* !important */
+/* Estilos en linea */
+/* Identificadores (ID) */
+/* Clases, pseudo-clases, atributos */
+/* Elementos, pseudo-elementos */
 
-*{
-    font-size: 2rem;
+/* Elementos, pseudo-elementos a Clases, pseudo-clases, atributos */
+
+.color-red{
+    color: blue;
 }
 
-/* De tipo */
-
-h2{
-    color: aqua;
-}
-
-/* Clase */
-
-.titulo3{
+h1{
     color: red;
 }
 
-/* ID */
+/* Clases, pseudo-clases, atributos a Identificadores (ID) */
 
-#titulo4{
-    color: green;
+#titulo2{
+    color: olive;
 }
 
-/* Atributo */
-
-[Juan="Pablo"]{
-    color: orange;
+.titulo2{
+    color: aqua;
 }
 
-/* Descendiente */
+/* Identificadores (ID) a Estilos en linea */
 
-.comentario p {
-    color: yellow;
+h3{
+    color: red;
 }
 
-/* Pseudo clases */
+/* Estilos en linea a !important */
 
-h6:hover{
-    color: purple;
+h4{
+    color: blue !important;
 }
