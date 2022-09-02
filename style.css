@@ -1,22 +1,2 @@
-/* Propiedades de texto y tipografias externas */
+/* Normalize */
 
-h1{
-    /* Tamaño fuente */
-    font-size: 2em;
-
-    /* Estilo de la fuente */
-    font-family: Georgia, 'Times New Roman', Times, serif;
-
-    /* Ancho de la letra */
-    line-height: 2;
-
-    /* Grosor de la letra */
-    font-weight: normal;
-
-    /* Inutiles */
-    font-stretch: normal;
-    font-variant: small-caps;
-}
-h2{
-    font-family: 'Rubik Maze', cursive;
-}
