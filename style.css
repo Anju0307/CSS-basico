@@ -1,24 +1,15 @@
-/* Box Model */
-/* Modelo de las cajas margin/border/padding */
-
-*{
-    margin: 0;
-}
+/* box shadow */
+/* text-shadow/box-shadow/transform */
 
 div{
-    background-color: chocolate;
-    display: block;
-    height: 30vh;
-    width: 30vh;
-    border: 4px outset black;
-    margin: 20px;
-    box-sizing: border-box;
+    background-color: honeydew;
+    height: 20vh;
+    width: 20vh;
+    border: 5px inset black;
+    box-shadow: 2px 4px 15px 0 black;
+    
 }
-
 p{
-    background-color: aqua;
-    display: inline-block;
-    padding: 20vh;
-    margin-top: 30px;
-    margin-left: 30px;
+    text-shadow: 5px 10px 2px red;
+    transform: rotate(315deg);
 }
