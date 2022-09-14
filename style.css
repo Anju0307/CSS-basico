@@ -1,37 +1,33 @@
-/* Outline no ocupa un espacio real */
+/* Position */
+/* Static: Es la posicion original */
+/* Relative: sigue manteniendo el espacio aunque se mueva */
 
 *{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
+    margin: 0;
+    padding: 0;
 }
-
+div{
+    width: 120px;
+    height: 120px;
+    display: block;
+}
 .caja1{
-    margin: auto;
-    height: 200px;
-    width: 200px;
-    background-color: red;
-    outline: 10px solid black; /* No ocupa espacio se mezcla con el otro div */
-
+    background-color: aqua;
 }
+
 .caja2{
-    margin: auto;
-    height: 200px;
-    width: 200px;
-    background-color: yellow;
+    background-color: burlywood;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+.caja3{
+    background-color: violet;
+}
+.caja4{
+    background-color: tomato;
 }
 
-.cajita1 , .cajita2, .cajita3, .cajita4{
-    margin-top: 30px;
-    height: 200px;
-    width: 200px;
-    background-color: blue;
-    display: inline-block;
-}
-
-.cajita1{
-    border: 5px solid black;
-}
-.cajita3{
-    outline: 5px solid purple;
-    /* position: relative; *//* Esto para que el borde faltante aparezca */
-}
+/* Top y Left son los mas importantes */
