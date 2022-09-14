@@ -1,15 +1,37 @@
-/* box shadow */
-/* text-shadow/box-shadow/transform */
+/* Outline no ocupa un espacio real */
 
-div{
-    background-color: honeydew;
-    height: 20vh;
-    width: 20vh;
-    border: 5px inset black;
-    box-shadow: 2px 4px 15px 0 black;
-    
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
 }
-p{
-    text-shadow: 5px 10px 2px red;
-    transform: rotate(315deg);
+
+.caja1{
+    margin: auto;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    outline: 10px solid black; /* No ocupa espacio se mezcla con el otro div */
+
+}
+.caja2{
+    margin: auto;
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+}
+
+.cajita1 , .cajita2, .cajita3, .cajita4{
+    margin-top: 30px;
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    display: inline-block;
+}
+
+.cajita1{
+    border: 5px solid black;
+}
+.cajita3{
+    outline: 5px solid purple;
+    /* position: relative; *//* Esto para que el borde faltante aparezca */
 }
