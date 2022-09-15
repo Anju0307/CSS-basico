@@ -1,47 +1,17 @@
-/* Position Absolute */
+/* Position Fixed */
 
 *{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-size: 20px;
     margin: 0;
     padding: 0;
 }
-
-div{
-    display: block;
-    background: green;
-    position: absolute;
+body{
+    padding-top: 50px;
 }
-
 .contenedor{
-    position: relative;
-    margin: 50px auto;
-    height: 400px;
-    width: 400px;
-}
-div div{
-    height: 100px;
-    width: 100px;
-    background: yellow;
-    border: 3px solid black;
-}
-.cajita1{
-    left: 0;
-}
-.cajita2{
-    right: 0;
-}
-.cajita3{
-    bottom: 0;
-}
-.cajita4{
-    bottom: 0;
-    right: 0;
-}
-.cajita5{
-    margin: auto;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+    background: orange;
+    position: fixed;
+    margin-top: -50px;
 }
